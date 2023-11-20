@@ -12,3 +12,16 @@ The features in the dataset include time, amount, and various anonymized feature
 ## Model
 The Naive Bayes algorithm is employed for its simplicity and effectiveness in handling high-dimensional data. Despite its "naive" assumption of independence between features, Naive Bayes often performs well in real-world scenarios, especially with limited data and computational resources.
 
+## Downloading the Dataset
+To use this notebook or replicate the project, follow these steps to download the dataset:
+
+1. Go to your Kaggle account and navigate to the [Credit Card Fraud Detection dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
+
+2. Click on the "Copy API command" button (three dots at the top right) to get the command for downloading the dataset.
+
+3. Open a Jupyter Notebook in your Anaconda environment.
+
+4. Paste and run the copied command in a notebook cell to download the dataset directly. Make sure to have the `kaggle.json` file in the correct location. If you don't have it, follow the instructions in the [Kaggle documentation](https://github.com/Kaggle/kaggle-api#api-credentials) to obtain it.
+
+   ```python
+   !kaggle datasets download -d mlg-ulb/creditcardfraud
